@@ -50,7 +50,8 @@ exports.getPages = async ({ token, databaseId, notionVersion = "2021-05-13" }, r
 				pages.push(page)
 			}
 		} catch (e) {
-			reporter.panic(errorMessage)
+			console.log('WARNING', e)
+			// reporter.panic(errorMessage)
 		}
 	}
 

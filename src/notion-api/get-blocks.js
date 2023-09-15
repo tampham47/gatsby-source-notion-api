@@ -35,7 +35,8 @@ exports.getBlocks = async ({ id, notionVersion, token }, reporter) => {
 			startCursor = result.next_cursor
 			hasMore = result.has_more
 		} catch (e) {
-			reporter.panic(errorMessage)
+			console.log('WARNING', e)
+			// reporter.panic(errorMessage)
 		}
 	}
 
