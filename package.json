@@ -1,6 +1,6 @@
 {
-	"name": "gatsby-source-notion-api",
-	"version": "0.0.0",
+	"name": "gatsby-notion-api",
+	"version": "1.0.2",
 	"description": "Gatsby source plugin for official Notion.so API",
 	"main": "index.js",
 	"publishConfig": {
@@ -20,12 +20,12 @@
 		"gatsby-plugin",
 		"notion"
 	],
-	"author": "Sergei Orlov <hello@orlow.dev> (https://orlow.dev/)",
+	"author": "TamPh <tampham47@live.com> (https://xaolonist.com/)",
 	"license": "0BSD",
-	"homepage": "https://github.com/orlowdev/gatsby-source-notion-api",
+	"homepage": "https://github.com/tampham47/gatsby-source-notion-api",
 	"bugs": {
 		"email": "hello@orlow.dev",
-		"url": "https://github.com/orlowdev/gatsby-source-notion-api/issues"
+		"url": "https://github.com/tampham47/gatsby-source-notion-api/issues"
 	},
 	"repository": {
 		"type": "git",
