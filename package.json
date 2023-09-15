@@ -1,12 +1,8 @@
 {
 	"name": "gatsby-notion-api",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Gatsby source plugin for official Notion.so API",
 	"main": "index.js",
-	"publishConfig": {
-		"registry": "https://registry-url",
-		"access": "public"
-	},
 	"scripts": {
 		"test": "ava",
 		"test:cover": "nyc ava",
